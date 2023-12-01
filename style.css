@@ -1,6 +1,16 @@
 @font-face {
-  font-family: "Spotify";
-  src: url("")
+  font-family: 'Spotify-Bold';
+  src: url('fonts/Gotham-Black.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spotify';
+  src: url('fonts/Gotham-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spotify-Italic';
+  src: url('fonts/GothamBoldItalic.ttf') format('truetype');
 }
 
 html {
