@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Spotify-Bold';
-  src: url('fonts/Gotham-Black.otf') format('truetype');
+  src: url('fonts/Gotham-Black.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'Spotify';
-  src: url('fonts/Gotham-Bold.ttf') format('truetype');
+  src: url('fonts/Gotham-Bold.otf') format('opentype');
 }
 
 @font-face {
