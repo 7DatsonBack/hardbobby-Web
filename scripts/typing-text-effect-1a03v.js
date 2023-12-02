@@ -25,7 +25,7 @@ function Type(text, i, fnCallback) {
 
     Type(TextType, 0, () => {
       
-      document.getElementById("typed-text").innerHTML += '<span class="typing-cursor"></span>';
+      document.getElementById("typed-text-ci2D4").innerHTML += '<span class="typing-cursor"></span>';
       
     });
   });
