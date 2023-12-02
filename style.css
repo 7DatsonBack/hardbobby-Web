@@ -11,3 +11,22 @@ html {
 body {
   margin: 0;
 }
+
+.typing-cursor {
+  display: inline-block;
+  width: 8px;
+  height: 20px;
+  background-color: #FFFFFF;
+  margin-left: 3px;
+  animation: blink 0.7s infinite;
+  }
+
+@keyframes blink {
+  0%, 50%, 100% {
+    opacity: 0;
+  }
+  
+  25%, 75% {
+    opacity: 1;
+  }
+}
