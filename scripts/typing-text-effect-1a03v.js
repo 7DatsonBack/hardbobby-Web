@@ -8,7 +8,7 @@ function Type(text, i, fnCallback) {
 
       setTimeout(() => {
         
-        typeWriter(text, i, fnCallback);
+        Type(text, i, fnCallback);
         
       }, 100);
       
