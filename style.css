@@ -3,6 +3,16 @@
   src: url('fonts/Gotham-Black.otf') format('opentype');
 }
 
+@keyframes blink {
+  0%, 50%, 100% {
+    opacity: 0;
+  }
+  
+  25%, 75% {
+    opacity: 1;
+  }
+}
+
 html {
   height: 100%;
   width: 100%;
@@ -21,12 +31,3 @@ body {
   animation: blink 0.7s infinite;
   }
 
-@keyframes blink {
-  0%, 50%, 100% {
-    opacity: 0;
-  }
-  
-  25%, 75% {
-    opacity: 1;
-  }
-}
