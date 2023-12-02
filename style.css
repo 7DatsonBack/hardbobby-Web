@@ -26,7 +26,7 @@ body {
 .typing-cursor {
   display: inline-block;
   width: 8px;
-  height: 10px;
+  height: 38px;
   background-color: black;
   margin-left: 3px;
   animation: blink 0.7s infinite;
