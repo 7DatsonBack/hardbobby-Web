@@ -34,6 +34,9 @@ body {
 
 .typed-text-ci2D4 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
 }
