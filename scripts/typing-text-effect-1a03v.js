@@ -21,7 +21,7 @@ function Type(text, i, fnCallback) {
 
   document.addEventListener("DOMContentLoaded", () => {
     
-    const TextType = document.getElementById("typed-text-container-ci2D4").textContent;
+    const TextType = document.getElementById("typed-text-placeholder-ci2D4").textContent;
 
     Type(TextType, 0, () => {
       
