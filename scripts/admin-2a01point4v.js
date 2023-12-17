@@ -61,7 +61,7 @@ if (localStorage.getItem("logged-in") === "true") {
 
     window.location.href = "https://www.hardbobby.xyz/";
   } else {
-    // window.location.href = "https://www.hardbobby.xyz/"; 
-    // Change to admin page (TODO)
+    window.location.href = ".\pages\admin.html"; 
+    
   }
 }
