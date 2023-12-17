@@ -1,7 +1,7 @@
 const Password = document.getElementById('password');
 
 const CorrectPassword = process.env.ADMIN_PASSWORD_HASH;
-const Salt =  process.env.ENCODING_SALT
+const Salt =  process.env.ENCODING_SALT;
 
 function HashP(password, salt) {
   return new Promise((resolve, reject) => {
