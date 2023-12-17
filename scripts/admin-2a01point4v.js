@@ -59,7 +59,7 @@ if (localStorage.getItem("logged-in") === "true") {
     localStorage.removeItem("logged-in");
     localStorage.removeItem("expiration");
 
-    window.location.href = "https://staledisfiguredgeeklog.poll0s.repl.co/";
+    window.location.href = "https://www.hardbobby.xyz/";
   } else {
     // window.location.href = "https://www.hardbobby.xyz/"; 
     // Change to admin page (TODO)
