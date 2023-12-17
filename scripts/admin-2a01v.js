@@ -32,6 +32,7 @@ document.getElementById('login').addEventListener('submit', async function(event
 
       if (localStorage.getItem("logged-in") === "true") {
         window.location.reload();
+        return
       }
 
       var expiration = new Date().getTime() + 60 * 1000;
