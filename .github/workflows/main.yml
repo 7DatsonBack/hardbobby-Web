@@ -13,9 +13,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Install dependencies
-        run: npm install
-
       - name: Replace Secrets in Code
         run: |
           sed -i 's#ADMIN_PASSWORD_HASH_PLACEHOLDER#${{ secrets.ADMIN_PASSWORD_HASH }}#' scripts/admin-2a01point4v.js
