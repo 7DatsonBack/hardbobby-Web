@@ -31,7 +31,7 @@ document.getElementById('login').addEventListener('submit', async function(event
     if (HashedInputPassword === CorrectPassword) {
 
       if (localStorage.getItem("logged-in") === "true") {
-        return;
+        window.location.reload();
       }
 
       var expiration = new Date().getTime() + 60 * 1000;
